@@ -1,0 +1,7 @@
+[servers]
+server1 ansible_host=34.247.107.131
+server2 ansible_host=79.125.74.248
+[servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/keys/ec2-security-key.pem
+ansible_python_interpreter=/usr/bin/python3
